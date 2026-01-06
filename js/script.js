@@ -151,3 +151,28 @@ function calculate() {
     calculator.compute();
     calculator.updateDisplay();
 }
+
+document.addEventListener('keydown', (event) => {
+    let key = event.key;
+
+    if ((key >= '0' && key <= '9') || key === '.') {
+        appendNumber(key);
+    }
+
+    if (key === '+' || key === '-' || key === '*' || key === '/') {
+        appendOperator(key);
+    }
+
+    if (key === 'Enter' || key === '=') {
+        event.preventDefault(); 
+        calculate();
+    }
+
+    if (key === 'Backspace') {
+        deleteLast();
+    }
+
+    if (key === 'Escape' || key === 'Delete') {
+        clearDisplay();
+    }
+});
