@@ -7,7 +7,7 @@ A sleek front-end project crafted with love using HTML, CSS, and pure JavaScript
 Experience the site live at 👉 [S00N](#)
 
 ## Demo Preview 📸  
-![Demo GIF](assets/demo.gif)
+![Demo pic](assets/calshot.png)
 
 ## Description 📝  
 A modern, minimal calculator application featuring a "Liquid Glass" (Glassmorphism) aesthetic. Designed to be visually pleasing with a solid dark background and frosted glass effects, fully responsive for all devices.
